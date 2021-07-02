@@ -1,4 +1,5 @@
 FROM scottw/alpine-perl:5.32.0
+ENV http_proxy=http://ipproxy.dsb.dk:80/
 RUN apk update
 RUN apk add expat-dev
 RUN apk add graphviz
