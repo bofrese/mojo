@@ -1,0 +1,1 @@
+docker run --rm -it -v "%~dp0:/app" --name mojo -p 3000:3000 mojo sh
